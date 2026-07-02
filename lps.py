@@ -17,7 +17,7 @@ def scan_tcp(address):
         if (nm[address]['tcp'][port]['state']) == 'open': output.append(f'Port {port} is open with TCP running, using {nm[address]['tcp'][port]['version']}')
     if (len(scannedbynmap)) == 0: print('The device you are trying to scan seems unreachable.')
     for i in range(len(output)): print(output[i])
-    #that was quick and easy only took me 2 hours
+
 
 def scan_udp(address): 
     print(f'Please wait. The program has recieved the address: {address}, and is now working on scanning it to find the open UDP ports.\nThis will take ~90+ seconds.')
@@ -40,4 +40,4 @@ def scan_udp(address):
     if not(output):print('Scan finished, no UDP ports detected.')
     else:
         for i in range(len(output)): print(output[i])
-    #WHY DID UDP TAKE ME 5 HOURS.
+
