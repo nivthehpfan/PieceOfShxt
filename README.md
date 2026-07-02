@@ -10,7 +10,8 @@ features:
 - framework                 
 
 no exploits because of the 1990 computer misuse act section 3A           
-and if I get caught no more computing           
+and if I get caught no more computing       
+and no using this in anyone elses network bc that also violates the law 
 
                     
 no more computing = instant depression 
