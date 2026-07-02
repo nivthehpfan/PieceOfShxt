@@ -2,12 +2,9 @@ def test():
     return 1
 
 import nmap
-#PING SWEEPER?????????????????????????????????????????????????????????????
-#I REMEMBER TRYING TO MAKE THIS AFTER FAILING PCAP (BEFORE PASSING)
-#I GAVE UP SO QUICKLY BAHAHHAHAHAHAHHAHA AND I WASTED LIKE 4 DAYS ON KALI LINUX BEING SO CONFUSED BAHAHAHHAHAHAHHAHA
 
-def PiNgSwEePeR(SUBNET):#okay 192.168.50.1/24 is my range i hope....   im kinda cooked if its not my LAN
-    nm = nmap.PortScanner()#update i called my father and he said it is
+def PiNgSwEePeR(SUBNET):
+    nm = nmap.PortScanner()
     print(f'Please wait. Pinging devices on subnet {SUBNET}.')
     output = []
     try:
@@ -19,4 +16,4 @@ def PiNgSwEePeR(SUBNET):#okay 192.168.50.1/24 is my range i hope....   im kinda 
         for i in range(len(output)): print(output[i])
     except BaseException as aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa:
         print(f'Error:{aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa}')
-    #that only took about 10 mins wtf wtf wtf wtf wtf
+
